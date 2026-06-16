@@ -1,0 +1,22 @@
+../MicroRos/MicroRos.cpp:221:5:int _write(int, char*, int)	24	static
+../MicroRos/MicroRos.cpp:229:5:int _gettimeofday(timeval*, void*)	16	static
+../MicroRos/MicroRos.cpp:352:6:void DWT_init()	4	static
+../MicroRos/MicroRos.cpp:360:11:rmw_ret_t check_microros_agent_reset_watchdog()	16	static
+../MicroRos/MicroRos.cpp:387:6:void blink()	8	static
+../MicroRos/MicroRos.cpp:393:6:void blink_n_times(int, uint32_t)	24	static
+../MicroRos/MicroRos.cpp:410:6:void rclErrorLoop()	8	static
+../MicroRos/MicroRos.cpp:424:7:float get_dt_s(long unsigned int*)	24	static
+../MicroRos/MicroRos.cpp:431:17:timespec getTime()	32	static
+../MicroRos/MicroRos.cpp:443:6:void publishData()	24	static
+../MicroRos/MicroRos.cpp:470:6:void moveBase()	40	static
+../MicroRos/MicroRos.cpp:594:6:void syncTime()	40	static
+../MicroRos/MicroRos.cpp:609:6:void timer_callback(rcl_timer_t*, int64_t)	24	static
+../MicroRos/MicroRos.cpp:621:6:void twist_subscriber_callback(const void*)	16	static
+../MicroRos/MicroRos.cpp:629:6:void servo_subscriber_callback(const void*)	16	static
+../MicroRos/MicroRos.cpp:643:6:bool createEntities()	272	static
+../MicroRos/MicroRos.cpp:744:6:bool destroyEntities()	16	static
+../MicroRos/MicroRos.cpp:771:6:void MicroRosInit()	40	static
+../MicroRos/MicroRos.cpp:847:6:void MicroRosExecute()	24	static
+../MicroRos/MicroRos.cpp:903:6:void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef*)	16	static
+../MicroRos/MicroRos.cpp:908:1:void __static_initialization_and_destruction_0()	8	static
+../MicroRos/MicroRos.cpp:908:1:cpp)	8	static

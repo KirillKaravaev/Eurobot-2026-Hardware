@@ -1,0 +1,70 @@
+/*-------------------------------------------------------------------------------------------------------------------
+--
+-- Проект      :
+-- Модуль      : odometry
+-- Автор       : Караваев К.А.
+-- Компания    : МИФИ
+-- Файлы       : odometry.cpp, odometry.h
+--
+---------------------------------------------------------------------------------------------------------------------
+--
+-- Описание    : Программа для расчета одометрии
+--
+---------------------------------------------------------------------------------------------------------------------
+--
+-- V0.0 (01.01.2026)  - исходная версия
+-- V0.1 (01.04.2026)  - добавлена перегружаемая функция update с параметрами скоростей и абсолютных перемещений
+--                      для использования с датчиками, которые возвращают и скорости, и положения. (например, OTOS)
+--
+---------------------------------------------------------------------------------------------------------------------
+*/
+
+
+// Copyright (c) 2021 Juan Miguel Jimeno
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+#ifndef ODOMETRY_H
+#define ODOMETRY_H
+
+#include <micro_ros_utilities/type_utilities.h>
+#include <micro_ros_utilities/string_utilities.h>
+#include <nav_msgs/msg/odometry.h>
+//#include "config.h"
+
+#ifndef POSE_COV
+#define POSE_COV { 0.0001, 0.0001, 0, 0, 0, 0.0001 }
+#endif
+#ifndef TWIST_COV
+#define TWIST_COV { 0.00001, 0.00001, 0, 0, 0, 0.00001 }
+#endif
+
+class Odometry
+{
+    public:
+        Odometry();
+        void init(float x_pos_0, float y_pos_0);
+        void update(float vel_dt, float linear_vel_x, float linear_vel_y, float angular_vel_z);
+        void update(float vel_dt, float linear_vel_x, float linear_vel_y, float angular_vel_z, float x, float y, float angle);
+        nav_msgs__msg__Odometry getData();
+
+    private:
+        const void euler_to_quat(float x, float y, float z, float* q);
+
+        nav_msgs__msg__Odometry odom_msg_;
+        float x_pos_;
+        float y_pos_;
+        float heading_;
+};
+
+#endif

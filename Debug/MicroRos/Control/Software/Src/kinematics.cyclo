@@ -1,0 +1,7 @@
+../MicroRos/Control/Software/Src/kinematics.cpp:16:7:float constrain(float, float, float)	3
+../MicroRos/Control/Software/Src/kinematics.cpp:22:1:Kinematics::Kinematics(base, int, float, float, float, float)	1
+../MicroRos/Control/Software/Src/kinematics.cpp:47:17:Kinematics::rpm Kinematics::calculateRPM(float, float, float)	4
+../MicroRos/Control/Software/Src/kinematics.cpp:237:17:Kinematics::rpm Kinematics::getRPM(float, float, float)	3
+../MicroRos/Control/Software/Src/kinematics.cpp:247:24:Kinematics::velocities Kinematics::getVelocities(float, float, float, float)	4
+../MicroRos/Control/Software/Src/kinematics.cpp:295:5:int Kinematics::getTotalWheels(base)	5
+../MicroRos/Control/Software/Src/kinematics.cpp:307:7:float Kinematics::getMaxRPM()	1

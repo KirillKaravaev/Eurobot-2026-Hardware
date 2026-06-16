@@ -1,0 +1,9 @@
+D:/Projects/Eurobot2026/Program/H723_Eurobot/Eurobot/MicroRos/Control/Hardware/Inc/servo_ST3215/SCSerial.h:33:14:virtual int SCSerial::getErr()	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSerial.cpp:13:1:SCSerial::SCSerial()	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSerial.cpp:19:1:SCSerial::SCSerial(u8)	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSerial.cpp:25:1:SCSerial::SCSerial(u8, u8)	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSerial.cpp:31:5:virtual int SCSerial::readSCS(unsigned char*, int)	40	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSerial.cpp:57:5:virtual int SCSerial::writeSCS(unsigned char*, int)	24	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSerial.cpp:65:5:virtual int SCSerial::writeSCS(unsigned char)	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSerial.cpp:70:6:virtual void SCSerial::rFlushSCS()	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSerial.cpp:75:6:virtual void SCSerial::wFlushSCS()	16	static

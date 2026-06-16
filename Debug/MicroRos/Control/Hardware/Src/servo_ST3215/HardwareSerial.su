@@ -1,0 +1,11 @@
+../MicroRos/Control/Hardware/Src/servo_ST3215/HardwareSerial.cpp:10:13:void Error_Handler()	4	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/HardwareSerial.cpp:17:1:HardwareSerial::HardwareSerial(USART_TypeDef*, uint32_t)	24	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/HardwareSerial.cpp:21:1:HardwareSerial::HardwareSerial(USART_TypeDef*, uint32_t, uint32_t, uint32_t)	24	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/HardwareSerial.cpp:25:6:void HardwareSerial::begin()	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/HardwareSerial.cpp:47:5:int HardwareSerial::available()	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/HardwareSerial.cpp:52:5:int HardwareSerial::read()	24	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/HardwareSerial.cpp:64:5:int HardwareSerial::write(const uint8_t*, size_t)	24	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/HardwareSerial.cpp:73:8:size_t HardwareSerial::write(uint8_t)	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/HardwareSerial.cpp:77:8:size_t HardwareSerial::write(const char*)	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/HardwareSerial.cpp:81:1:HardwareSerial::~HardwareSerial()	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/HardwareSerial.cpp:87:6:void HardwareSerial::initGPIO()	16	static

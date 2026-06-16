@@ -1,0 +1,24 @@
+D:/Projects/Eurobot2026/Program/H723_Eurobot/Eurobot/MicroRos/Control/Hardware/Inc/servo_ST3215/SCSerial.h:33:14:virtual int SCSerial::getErr()	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:10:1:SCSCL::SCSCL()	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:15:1:SCSCL::SCSCL(u8)	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:19:1:SCSCL::SCSCL(u8, u8)	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:23:5:virtual int SCSCL::WritePos(u8, u16, u16, u16)	40	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:33:5:virtual int SCSCL::WritePosEx(u8, s16, u16, u8)	40	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:45:5:virtual int SCSCL::RegWritePos(u8, u16, u16, u16)	40	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:55:5:virtual int SCSCL::CalibrationOfs(u8)	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:59:6:virtual void SCSCL::SyncWritePos(u8*, u8, u16*, u16*, u16*)	72	dynamic
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:81:5:virtual int SCSCL::PWMMode(u8)	32	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:91:5:virtual int SCSCL::WritePWM(u8, s16)	32	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:103:5:virtual int SCSCL::EnableTorque(u8, u8)	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:108:5:virtual int SCSCL::unLockEprom(u8)	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:113:5:virtual int SCSCL::LockEprom(u8)	16	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:118:5:virtual int SCSCL::FeedBack(int)	32	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:129:5:virtual int SCSCL::ReadPos(int)	24	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:146:5:virtual int SCSCL::ReadSpeed(int)	24	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:167:5:virtual int SCSCL::ReadLoad(int)	24	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:187:5:virtual int SCSCL::ReadVoltage(int)	24	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:202:5:virtual int SCSCL::ReadTemper(int)	24	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:217:5:virtual int SCSCL::ReadMove(int)	24	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:232:5:virtual int SCSCL::ReadMode(int)	24	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:255:5:virtual int SCSCL::ReadInfoValue(int, int)	32	static
+../MicroRos/Control/Hardware/Src/servo_ST3215/SCSCL.cpp:262:5:virtual int SCSCL::ReadCurrent(int)	24	static

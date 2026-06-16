@@ -1,0 +1,9 @@
+../MicroRos/ServoTask.cpp:18:13:void set_grippers(int*)	3
+../MicroRos/ServoTask.cpp:34:13:void set_height(s16)	1
+../MicroRos/ServoTask.cpp:45:13:void go_down()	1
+../MicroRos/ServoTask.cpp:50:6:void ServoInit()	1
+../MicroRos/ServoTask.cpp:55:6:void ServoSpin()	38
+../MicroRos/ServoTask.cpp:251:1:void __static_initialization_and_destruction_0()	1
+../MicroRos/ServoTask.cpp:251:1:void __static_initialization_and_destruction_1()	1
+../MicroRos/ServoTask.cpp:251:1:cpp)	1
+../MicroRos/ServoTask.cpp:251:1:cpp)	1

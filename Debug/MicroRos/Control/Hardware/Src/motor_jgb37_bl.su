@@ -1,0 +1,9 @@
+../MicroRos/Control/Hardware/Src/motor_jgb37_bl.cpp:21:1:JGB37BL::JGB37BL()	16	static
+../MicroRos/Control/Hardware/Src/motor_jgb37_bl.cpp:50:6:void JGB37BL::motor_init(bool, TIM_HandleTypeDef*, uint32_t, GPIO_TypeDef*, uint16_t)	24	static
+../MicroRos/Control/Hardware/Src/motor_jgb37_bl.cpp:79:6:void JGB37BL::encoder_init(float, uint16_t, TIM_HandleTypeDef*)	24	static
+../MicroRos/Control/Hardware/Src/motor_jgb37_bl.cpp:106:6:void JGB37BL::encoder_init_it(float, uint16_t, TIM_HandleTypeDef*, uint32_t)	40	static
+../MicroRos/Control/Hardware/Src/motor_jgb37_bl.cpp:146:6:void JGB37BL::spin(int)	16	static
+../MicroRos/Control/Hardware/Src/motor_jgb37_bl.cpp:165:6:void JGB37BL::stop()	16	static
+../MicroRos/Control/Hardware/Src/motor_jgb37_bl.cpp:170:7:float JGB37BL::get_rpm(float)	32	static
+../MicroRos/Control/Hardware/Src/motor_jgb37_bl.cpp:212:7:float JGB37BL::get_rpm_it()	24	static
+../MicroRos/Control/Hardware/Src/motor_jgb37_bl.cpp:236:6:void JGB37BL::rpm_capture_it(TIM_HandleTypeDef*)	24	static

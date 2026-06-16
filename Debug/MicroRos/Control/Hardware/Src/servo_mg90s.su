@@ -1,0 +1,2 @@
+../MicroRos/Control/Hardware/Src/servo_mg90s.cpp:42:6:void MG90S::init(TIM_HandleTypeDef*, uint32_t, uint32_t)	24	static
+../MicroRos/Control/Hardware/Src/servo_mg90s.cpp:71:6:void MG90S::spin(uint32_t)	16	static
