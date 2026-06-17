@@ -4,16 +4,16 @@ Welcome to the embedded (low-level) firmware repository for the **SCRAT** robot 
 The project implements low-level motion control, sensor fusion, and gripper management for the robot base, running on an **STM32H723VGT6** microcontroller (ARM Cortex-M7, 550 MHz).
 Communication with the high-level PC stack is provided via **[micro-ROS](https://micro.ros.org/) over USB CDC (HS)**.
 
-<img width="640" height="640" alt="STM32H723VGT6" title="STM32H723VGT6" src="https://github.com/user-attachments/assets/e915cade-10f1-4436-8615-6db69e219af9" />
+<img width="640" height="640" alt="STM32H723VGT6" title="STM32H723VGT6" src="https://github.com/KirillKaravaev/Eurobot-2026-Hardware/blob/main/docs/stm32.jpg" />
 
 We also designed a PCB to accommodate the microcontroller board and conveniently connect various sensors and actuators to it, as shown below. We made every effort to use the available microcontroller peripherals as much as possible, so the board is quite versatile. Additionally, we designed a power board that complements the control board and provides the necessary voltages for powering sensors and actuators. By separating the power and control functions, we minimize interference during the control of powerful loads (such as motors and servos), while also reducing the overall size of the boards. Both boards are showcased below.
 
-<img width="866" height="659" alt="Power board" title="Power board" src="https://github.com/user-attachments/assets/25b720d5-22ec-4556-a16a-ef7e6ae239a4"  /> 
+<img width="866" height="659" alt="Power board" title="Power board" src="https://github.com/KirillKaravaev/Eurobot-2026-Hardware/blob/main/docs/power_board.jpg"  /> 
 <p>
     <em> Power board </em>
 </p>
 
-<img width="952" height="831" alt="Control board" title="Control board" src="https://github.com/user-attachments/assets/6a571d2e-0a7c-41b0-ae22-3fff0cebb305" />
+<img width="952" height="831" alt="Control board" title="Control board" src="https://github.com/KirillKaravaev/Eurobot-2026-Hardware/blob/main/docs/logic_board.jpg" />
 <p>
     <em> Control board </em>
 </p>
